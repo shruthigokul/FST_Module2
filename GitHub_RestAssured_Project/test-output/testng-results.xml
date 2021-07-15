@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[[
+    {
+        "id": 54824369,
+        "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDD1j8jYM86m9Qtmp1+WTWYH+3bQssgE39ve1uLIotgBb9ECf8+W/Dv6bGz47hmXGvoR5QVjhTG9iIEn4FA+seWCxbU/IH8ekdv65ssvqCGtKvbDGHQx4eZmRDlsvt+z23ewtw70cO5l23jBhYzlV1GnkSlJhfc/3KOhpiQu5bNAhA7CuUMnHwi31aWqPmAVusLbkmk7115DXH3kC2lRS/iXRyy4ZNv1YMtWSqcs6Cd0fxOla5CoL3X2uFV6zF/aPV99LCDuXQjQ8KGDsOHPaiQijemvHCMMIwJhopPZ8kfXtzmK8DtJA+hld9/7dgR4wLPDhN6WtA2taKACIdV4SFD",
+        "url": "https://api.github.com/user/keys/54824369",
+        "title": "TestAPIKey",
+        "verified": true,
+        "created_at": "2021-07-15T07:23:09Z",
+        "read_only": false
+    }
+]]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5112" started-at="2021-07-15T12:44:07 IST" finished-at="2021-07-15T12:44:12 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5112" started-at="2021-07-15T12:44:07 IST" finished-at="2021-07-15T12:44:12 IST">
+      <class name="Project.Project">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Project.Project@458c1321]" name="setUp" is-config="true" duration-ms="752" started-at="2021-07-15T12:44:07 IST" finished-at="2021-07-15T12:44:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postTest()[pri:0, instance:Project.Project@458c1321]" name="postTest" duration-ms="3267" started-at="2021-07-15T12:44:08 IST" finished-at="2021-07-15T12:44:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTest -->
+        <test-method status="PASS" signature="getTest()[pri:1, instance:Project.Project@458c1321]" name="getTest" duration-ms="493" started-at="2021-07-15T12:44:11 IST" finished-at="2021-07-15T12:44:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[[
+    {
+        "id": 54824369,
+        "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDD1j8jYM86m9Qtmp1+WTWYH+3bQssgE39ve1uLIotgBb9ECf8+W/Dv6bGz47hmXGvoR5QVjhTG9iIEn4FA+seWCxbU/IH8ekdv65ssvqCGtKvbDGHQx4eZmRDlsvt+z23ewtw70cO5l23jBhYzlV1GnkSlJhfc/3KOhpiQu5bNAhA7CuUMnHwi31aWqPmAVusLbkmk7115DXH3kC2lRS/iXRyy4ZNv1YMtWSqcs6Cd0fxOla5CoL3X2uFV6zF/aPV99LCDuXQjQ8KGDsOHPaiQijemvHCMMIwJhopPZ8kfXtzmK8DtJA+hld9/7dgR4wLPDhN6WtA2taKACIdV4SFD",
+        "url": "https://api.github.com/user/keys/54824369",
+        "title": "TestAPIKey",
+        "verified": true,
+        "created_at": "2021-07-15T07:23:09Z",
+        "read_only": false
+    }
+]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method status="PASS" signature="deleteTest()[pri:2, instance:Project.Project@458c1321]" name="deleteTest" duration-ms="526" started-at="2021-07-15T12:44:12 IST" finished-at="2021-07-15T12:44:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- Project.Project -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
